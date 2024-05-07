@@ -1,38 +1,59 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heap-div{
+  overflow-x: auto; 
+  background-color: #202020;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-calendar-heatmap .color-scale-1 { fill: #fa817e; }
+.react-calendar-heatmap .color-scale-2 { fill: #f6565c; }
+.react-calendar-heatmap .color-scale-3 { fill: #f22c35; }
+.react-calendar-heatmap .color-scale-4 { fill: #bf242f; }
+.react-calendar-heatmap .color-scale-5 { fill: #891f23; }
+
+.react-calendar-heatmap .react-calendar-heatmap-small-square {
+  padding: 5px;
+  margin: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.week-labels {
+  display: grid;
+  margin-top: 1%;
+  padding-right: 10px;
+}
+
+.day-label {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 15px;
+}
+.react-calendar-heatmap-month-labels{
+  margin-bottom: 2% !important;
+}
+.description{
   display: flex;
-  flex-direction: column;
+  justify-content: end;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 2%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  float: right;
+  color: grey;
+  width: max-content;
+  font-size: 18px;
+  height: 45px;
+  margin-bottom: 20px;
 }
+.description h5{
+  padding: 0 12px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.description span{
+  width: 22px;
+  height: 22px;
+  background-color: red;
+  margin-inline: 5px;
+  border-radius: 5px;  
 }
