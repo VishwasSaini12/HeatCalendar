@@ -28,8 +28,8 @@ function App() {
   };
   return (
     <div className="heap-div">
-      <h1 style={{ color: 'white', marginLeft: '2.5%', fontSize: '22px' }}>23 Threats in 2024</h1>
-      <div style={{ display: 'flex', border: '1px solid grey', padding: '1.5%', margin: '1.5% 1%', borderRadius: '10px' }}>
+      <h1 className='heap-box'>23 Threats in 2024</h1>
+      <div className="calendar-border">
         <div className="week-labels">
           {daysOfWeek.map(day => <span key={day} className="day-label" style={{ color: 'grey ' }}>{day}</span>)}
         </div>

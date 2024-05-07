@@ -5,6 +5,19 @@
   overflow-x: auto; 
   background-color: #202020;
 }
+.heap-box {
+  color: white;
+  margin-left: 2.5%;
+  font-size: 22px;
+}
+
+.calendar-border {
+  display: flex;
+  border: 1px solid grey;
+  padding: 1.5%;
+  margin: 1.5% 1%;
+  border-radius: 10px;
+}
 
 .react-calendar-heatmap .color-scale-1 { fill: #fa817e; }
 .react-calendar-heatmap .color-scale-2 { fill: #f6565c; }
