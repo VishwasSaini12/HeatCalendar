@@ -11,7 +11,13 @@
 .react-calendar-heatmap .color-scale-3 { fill: #f22c35; }
 .react-calendar-heatmap .color-scale-4 { fill: #bf242f; }
 .react-calendar-heatmap .color-scale-5 { fill: #891f23; }
-
+.react-calendar-heatmap .color-empty {
+  fill:#202020 !important ;
+  stroke:gray;
+  stroke-width:.5px;
+  stroke-dasharray:none;
+  stroke-opacity:1;
+}
 .react-calendar-heatmap .react-calendar-heatmap-small-square {
   padding: 5px;
   margin: 2px;
@@ -56,4 +62,18 @@
   background-color: red;
   margin-inline: 5px;
   border-radius: 5px;  
+}
+.popup{
+  color:gray;
+  background: #23191a;
+  width: max-content;
+  padding: .4%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
