@@ -1,0 +1,42 @@
+.date-selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333;
+    color: #3eaca2;
+    font-family: Arial, sans-serif;
+    justify-content: space-around;
+  }
+  
+  .selector {
+    display: flex;
+    overflow-x: auto;
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  button {
+    background: none;
+    border: none;
+    color: #3eaca2;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 22px;
+  }
+  
+  button:hover, .active {
+    background-color: cyan;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .years,.months,.date{
+    border: 1px solid #3eaca2;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+    
+  }
