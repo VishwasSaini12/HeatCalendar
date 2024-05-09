@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #211e21;
+  height: 100vh;
+  width: 100vw;
 }
 .heap-div{
   overflow-x: auto; 
