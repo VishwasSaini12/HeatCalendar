@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.risk-level-container {
+    background: #212020;
+    width: 680px;
+    height: 100px;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.risk-level-container h1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 17.64px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.risk-level-pointer {
+    position: absolute;
+    pointer-events: none;
+    transform: rotate(360deg);
+    width: 0;
+    height: 0;
+    margin-top: -0.5%;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 18px solid #00FFFF;
+}
+
+.one,
+.two,
+.three {
+    width: 216px;
+    height: 21px;
+}
+
+.one {
+    gap: 0px;
+    border-radius: 6px 0px 0px 6px;
+    opacity: 0px;
+
+}
+
+.two {
+    gap: 0px;
+    border: 0px 0.3px 0px 0px;
+    opacity: 0px;
+}
+
+.three {
+    gap: 0px;
+    border-radius: 0px 6px 6px 0px;
+    border: 0px 0.3px 0px 0px;
+    opacity: 0px;
+
+}
+
+.risk-level-bar-container {
+    width: 648px;
+    height: 21px;
+    gap: 0px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.risk-level-bar-label {
+    width: 648px;
+    height: 10px;
+    gap: 0px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.risk-level-bar-label h5 {
+    color: #00FFFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 9.8px;
+    text-align: left;
+
+}

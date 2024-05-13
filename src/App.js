@@ -3,11 +3,13 @@ import React from 'react';
 import DateSelector from './components/DateSelector';
 import Leaderboard from "./components/Leaderboard";
 import HeatMap from './components/HeatMap';
+import Bar from './components/Bar';
 function App() {
   return <>
-    <HeatMap />
-    <DateSelector />
-    <Leaderboard />
+    {/* <DateSelector /> */}
+    {/* <Leaderboard /> */}
+    <Bar level={20} />
+    {/* <HeatMap /> */}
   </>
 }
 
